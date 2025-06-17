@@ -16,11 +16,62 @@
 
    **Write a query to find the number of unique users who triggered both a `signup` and a `purchase` event within 7 days.**
 
+```SQL
+WITH signup_events AS (
+   SELECT 
+      user_id, 
+      event_timestamp AS signup_time
+   FROM 
+      events
+   WHERE 
+      LOWER(event_type) = 'signup'
+),
+
+purchase_events AS (
+  SELECT 
+      user_id, 
+      event_timestamp AS purchase_time
+   FROM 
+      events
+   WHERE 
+      LOWER(event_type) = 'purchase'
+)
+
+--  WE need to join the events together to get those who did both within 7 days
+SELECT 
+   COUNT(DISTINCT s.user_id) AS user_count
+FROM 
+   signup_events s
+   JOIN purchase_events p 
+      ON s.user_id = p.user_id
+      AND p.purchase_time BETWEEN s.signup_time AND s.signup_time + INTERVAL 7 DAY
+```
+
 2. **Exploratory Analysis:**
    Given a dataset with customer transactions, how would you identify:
 
    * High-value customers?
    * Seasonality trends?
+
+High-Value Customers
+- First identify the key metrics that determines/defines the business objective, in most cases this will be revenue. Sometimes this can instead refer to outreach for organisations' objective are focusing on helping those that are needed, once that is defined we will extract all the following metrics. Let's assume that it's revenue for this case. Then some important metrics could be revenue, orders, customer amounts.
+- It's also important to define what “high value” means for your current goals:
+   - Do you want frequent repeat customers, or those who contribute large amounts occasionally?
+   - The definition can shift depending on whether you prioritise consistency or lifetime contribution.
+ 
+- But Generally let's follow the RFM Analysis (Recency, Frequency, Monetary) and CLV Estimation (Customer Lifetime Value)
+   - How recent was the last interaction? The more recent the better
+   - How often are they purchasing with us? More Frequent the better
+   - How much are they spending/interacting with us? Higher = Better
+- We can then create metrics based on the following, and define a score for each using binnings to determine the high-value customers
+
+Seasonality
+- Seasonality, will be heavily reliant on nature and rhythm of the business cycle, to determine how will the seasonality appear. Knowing how long the business cycle takes can help to determine the cyclic trend of the data. 
+   - For example, marketplaces will generally experience spikes on double dates, Pay Days and Year End Events
+- General Steps:
+   - EDA to aggregate transactions, and analysing the distribution of transactions across a period of time
+   - Trends can be found through Visualisations plotted across a long period of time, to detect recurring spikes or dips
+   - Able to perform decomposition methods to determine the trends and seasonalities
 
 ---
 
@@ -32,12 +83,71 @@
    * Write Python code to prepare this data for a logistic regression model.
    * Briefly explain how you'd evaluate the model performance.
 
+```python
+import pandas as pd # Assuming that the data in this case is small -> Larger cases may require polars or etc to massage the data before processing
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score
+
+# Assumming that the df is called customer.csv
+df = pd.read_csv("customer_csv")
+
+# we'll just take the data points needed, user_id doesn't add any value or predictive value regarding the churn chance unless we have 
+# a user profile or user case background that can determine their behaviours
+df = df.drop("user_id")
+
+# Separate the features from the prediction value
+features = df.drop("churned", axis=1)
+predicted_values = df["churned"]
+
+# Creae the train and test cases
+x_train, x_test, y_train, y_test = train_test_split(x, y, train_size=0.8, test_size=0.2, random_state=42)
+
+# Create feature scaler
+scaler = StandardScaler()
+x_train_scaled = scaler.fit_transform(x_train)
+x_test_scaled = scaler.transform(x_test)
+
+# Create Logis Model and train it
+model = LogisticRegression()
+model.fit(x_train_scaled, y_train)
+
+# Perform prediction on the test cases
+y_pred = model.predict(x_test_scaled)
+y_prob = model.predict_proba(x_test_scaled)[:, 1]
+
+# Evaluation Metrics
+print("Confusion Matrix:")
+print(confusion_matrix(y_test, y_pred))
+
+print("Classification Report:")
+print(classification_report(y_test, y_pred))
+
+print("ROC-AUC Score:")
+print(roc_auc_score(y_test, y_prob))
+```
+For a Logistic Model, we can evaluate based on the following metrics of Confusion Matrix, Classification Report, and ROC-AUC Score
+- The Confusion Matrix allows us to monitor and determine how many true/false positives and negatives the model is predicting on our data, determining the overall performance on testing suite
+- Knowing the data of the Confusion Matrix, will allow us to then determine/calculate the Precision, Recall and F1-Score of the Model, which is exactly what Classification Report gives us
+   - Precision allows us to determine out of those that we predicted as churned, how many of them was actually churned?
+   - Recall allows us to answer the question then of those that are meant to be churned, how many did we actually predict as churned?
+- ROC-AUC Score then allows us to determine how well it does in making a distinction between churned vs non-churned. The closer it is to 1, the better its ability to distinguish.
+
 4. **Machine Learning:**
    You are asked to build a customer segmentation model.
 
    * Which algorithm(s) would you use and why?
    * What preprocessing would you do before modeling?
 
+For customer segmentation, a few algorithms come to mind—each with its own pros depending on the size and behavior of the data.
+- First and foremost, K-Means is a go-to because of how simple and scalable it is. It’s a good fit when you want to group customers by common patterns like spending habits or engagement.
+- Hierarchical Clustering is another option when we want to understand the relationship or structure between customer groups in a tree-like format. This works better when we’re working with a smaller or medium-sized dataset.
+
+Processing Steps:
+- Exploratory Analysis will be done first to understand the makeup and distribution of the data.
+- We can then start to work on the Feature Selections for the models, to select the features, depending on what's available and the scale of the project, we can launch a Causal Framework Analysis to determine what are the core features that are directly/indirectly contributing teh segmentation
+- Then the following data processing steps can happen: handle missing values, scaling (i.e. log, or similar if data is horrendously skewed), and handling with outlier (i.e. handle them using IQR or Z-score or omit them for simplicity)
 ---
 
 ### **Section C: Applied Case**
@@ -48,5 +158,24 @@
    * What approach would you take to analyze this?
    * How would you explain your findings to a non-technical stakeholder?
 
+Analysis Step:
+- Firstly understand the scope of the analysis, i.e. are we dealing with a particular segment of users?
+- Then proceed to collect and prepare relevant data
+   - Gather user-level data: signup date, time to first purchase, source/channel (i.e. organic), engagement metrics, demographics, device/platform used, etc.
+   - Once all these data is available, we can then perform a causal analysis like above and determine how all these metrics are affecting each other either directly/indirectly
+      - By doing so, we can then determine the main features and prune out metrics that are covered by their causal factors, reducing the amount of clutter data
+- Perform Exploratory Data Analysis (EDA)
+- Start by comparing patterns between converted vs non-converted users.
+- Look for trends like which sources convert better, how many sessions it usually takes, or whether early engagement (e.g. browsing many products) correlates with conversion.
+   - These most of the time can be supplemented by previous Marketing Campaigns or efforts that have been made to improve the business, they will have outcomes and will most likely be an indicator to understand how affecting certain causal factors can impact the objective
+
+Explaining:
+- Reduce technicalities aspect and focus on what is meaningful for the particular stakeholders
+   - i.e. a Product Manager, will be interested to know that the Mobile App is performing X% better than the Web
+   - i.e. A marketing manager, will be interested to know that the Campaign launched 2 years ago had this % increase in retention
+- Supplement all these data with digestable visualisations, keeping it simple to understand what is driving first-time conversion
+- Provide Actions/Next Steps of what can be done to improve the system?
+   - i.e. improving the onboarding flow, perform A/B Tests for the products with the Product Team
+   - i.e. planning new marketing campaigns that are an extension upon the previous campaigns
 ---
 

@@ -1,23 +1,11 @@
-
-# BonusLink Take-Home Assessments
-Candidates: You may use this data for your analysis and modeling tasks.
-
-This repository contains the datasets and instructions for our Data Science take-home tasks.
-
-## 📊 Datasets
-- `members.csv`: Basic member demographics and tier info
-- `merchants.csv`: Merchant categories and locations
-- `transactions.csv`: Transactional records with timestamps and spend amount
-- `engagement.csv`: Behavioral features like logins, app opens, and redemptions
-
-## 📤 Candidate Instructions
-1. Clone or download this repository.
-2. You are required to complete the following:
-   - Assessment 1: General Big Query Compatible Questions 
-   - Assesment 2: Case Study 
-4. Submit your answers within 24 hours via: 
-   - **Option A**: Upload your completed work to your GitHub and share the link to anusia@bonuslink.com.my
-  
+Files:
+- notebooks
+   - main.ipynb -> Main jupyter notebook to perform all the EDAs and modelling
+   - main.html -> Snapshot of Main jupyter notebook to show 
+- environment.yml -> Conda environment files used to run the projects
+- scripts/... -> Helper functions that i normally use to help in general with EDA and processing of data
 
 
-Good luck!
+Any other details of modelling, logic and etc can be found within the jupyter notebook
+
+__this was done at 2am in the morning, so pardon the small things, the deadline of being 24 hrs since the assessment being sent is terribly obnoxious...__

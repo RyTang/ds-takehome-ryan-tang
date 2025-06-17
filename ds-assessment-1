@@ -1,0 +1,52 @@
+
+## 🔹 Technical Questionnaire – **Data Analyst (Data Science Competence)**
+
+> **Instructions:** Please complete the questions below. Include code snippets in Python/SQL where applicable and clearly explain your approach.
+
+---
+
+### **Section A: SQL & Exploratory Data Analysis**
+
+1. **SQL Task:**
+   You have a table `events` with:
+
+   * `user_id` (STRING)
+   * `event_type` (STRING)
+   * `event_timestamp` (TIMESTAMP)
+
+   **Write a query to find the number of unique users who triggered both a `signup` and a `purchase` event within 7 days.**
+
+2. **Exploratory Analysis:**
+   Given a dataset with customer transactions, how would you identify:
+
+   * High-value customers?
+   * Seasonality trends?
+
+---
+
+### **Section B: Python & Modeling**
+
+3. **Python Task:**
+   You're given a dataset with features: `user_id`, `last_login_days_ago`, `num_purchases`, `avg_purchase_value`, and a binary target `churned`.
+
+   * Write Python code to prepare this data for a logistic regression model.
+   * Briefly explain how you'd evaluate the model performance.
+
+4. **Machine Learning:**
+   You are asked to build a customer segmentation model.
+
+   * Which algorithm(s) would you use and why?
+   * What preprocessing would you do before modeling?
+
+---
+
+### **Section C: Applied Case**
+
+5. **Business Case:**
+   A product team wants to understand what factors lead to user conversion (first purchase).
+
+   * What approach would you take to analyze this?
+   * How would you explain your findings to a non-technical stakeholder?
+
+---
+

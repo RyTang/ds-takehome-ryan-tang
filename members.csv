@@ -1,0 +1,501 @@
+member_id,signup_date,tier,age_group,state
+M0001,2022-04-13,Gold,55+,Sabah
+M0002,2022-12-15,Silver,18-24,Penang
+M0003,2022-09-28,Silver,55+,Kuala Lumpur
+M0004,2022-04-17,Platinum,55+,Johor
+M0005,2022-03-13,Silver,35-44,Penang
+M0006,2022-07-08,Silver,25-34,Sabah
+M0007,2022-01-21,Gold,18-24,Johor
+M0008,2022-04-13,Silver,35-44,Sabah
+M0009,2022-05-02,Silver,25-34,Johor
+M0010,2022-08-03,Platinum,25-34,Kuala Lumpur
+M0011,2022-11-27,Silver,45-54,Penang
+M0012,2022-03-29,Platinum,18-24,Johor
+M0013,2022-04-10,Platinum,25-34,Selangor
+M0014,2022-12-26,Silver,35-44,Selangor
+M0015,2022-06-01,Silver,45-54,Johor
+M0016,2022-05-11,Silver,18-24,Johor
+M0017,2022-05-30,Silver,55+,Johor
+M0018,2022-11-05,Silver,35-44,Selangor
+M0019,2022-09-15,Gold,25-34,Selangor
+M0020,2022-12-10,Silver,25-34,Johor
+M0021,2022-10-21,Silver,35-44,Sabah
+M0022,2022-07-11,Gold,25-34,Sabah
+M0023,2022-10-04,Silver,45-54,Kuala Lumpur
+M0024,2022-06-10,Gold,18-24,Penang
+M0025,2022-11-10,Silver,45-54,Sabah
+M0026,2022-01-22,Silver,25-34,Selangor
+M0027,2022-09-10,Gold,55+,Sabah
+M0028,2022-08-24,Gold,18-24,Kuala Lumpur
+M0029,2022-12-11,Gold,18-24,Kuala Lumpur
+M0030,2022-02-18,Gold,35-44,Penang
+M0031,2022-02-28,Gold,35-44,Sabah
+M0032,2022-06-19,Silver,55+,Selangor
+M0033,2022-07-07,Silver,18-24,Selangor
+M0034,2022-09-28,Gold,55+,Johor
+M0035,2022-07-09,Gold,35-44,Selangor
+M0036,2022-06-24,Platinum,35-44,Penang
+M0037,2022-02-20,Silver,18-24,Penang
+M0038,2022-12-30,Silver,45-54,Selangor
+M0039,2022-02-24,Gold,25-34,Selangor
+M0040,2022-09-01,Silver,35-44,Johor
+M0041,2022-11-16,Platinum,35-44,Selangor
+M0042,2022-05-11,Gold,45-54,Johor
+M0043,2022-11-03,Silver,45-54,Johor
+M0044,2022-05-15,Gold,55+,Selangor
+M0045,2022-01-21,Gold,55+,Kuala Lumpur
+M0046,2022-11-25,Silver,25-34,Kuala Lumpur
+M0047,2022-06-16,Platinum,25-34,Johor
+M0048,2022-10-01,Silver,18-24,Selangor
+M0049,2022-03-30,Gold,55+,Kuala Lumpur
+M0050,2022-11-12,Silver,35-44,Selangor
+M0051,2022-01-14,Gold,55+,Selangor
+M0052,2022-08-30,Silver,35-44,Selangor
+M0053,2022-09-22,Silver,45-54,Sabah
+M0054,2022-12-12,Platinum,55+,Selangor
+M0055,2022-02-22,Silver,45-54,Sabah
+M0056,2022-12-06,Silver,25-34,Johor
+M0057,2022-04-02,Platinum,25-34,Kuala Lumpur
+M0058,2022-09-21,Platinum,18-24,Kuala Lumpur
+M0059,2022-02-04,Silver,55+,Kuala Lumpur
+M0060,2022-07-25,Gold,45-54,Kuala Lumpur
+M0061,2022-03-22,Silver,35-44,Kuala Lumpur
+M0062,2022-02-19,Silver,25-34,Kuala Lumpur
+M0063,2022-12-26,Silver,25-34,Kuala Lumpur
+M0064,2022-01-02,Gold,35-44,Johor
+M0065,2022-02-23,Gold,45-54,Selangor
+M0066,2022-04-16,Gold,45-54,Penang
+M0067,2022-09-17,Gold,55+,Sabah
+M0068,2022-11-06,Silver,55+,Penang
+M0069,2022-07-10,Silver,18-24,Penang
+M0070,2022-08-06,Silver,25-34,Selangor
+M0071,2022-02-13,Silver,55+,Selangor
+M0072,2022-06-11,Silver,45-54,Selangor
+M0073,2022-07-21,Gold,35-44,Kuala Lumpur
+M0074,2022-09-27,Silver,45-54,Johor
+M0075,2022-12-17,Silver,25-34,Kuala Lumpur
+M0076,2022-10-31,Silver,45-54,Johor
+M0077,2022-09-28,Gold,18-24,Johor
+M0078,2022-08-03,Gold,25-34,Penang
+M0079,2022-09-09,Silver,35-44,Penang
+M0080,2022-07-09,Silver,18-24,Johor
+M0081,2022-10-23,Gold,25-34,Johor
+M0082,2022-08-01,Silver,35-44,Kuala Lumpur
+M0083,2022-07-27,Gold,18-24,Kuala Lumpur
+M0084,2022-08-25,Gold,18-24,Penang
+M0085,2022-12-04,Silver,25-34,Selangor
+M0086,2022-02-22,Silver,55+,Johor
+M0087,2022-10-07,Platinum,18-24,Kuala Lumpur
+M0088,2022-08-05,Silver,18-24,Penang
+M0089,2022-09-09,Silver,35-44,Kuala Lumpur
+M0090,2022-07-07,Gold,45-54,Johor
+M0091,2022-02-10,Platinum,25-34,Johor
+M0092,2022-06-06,Platinum,25-34,Sabah
+M0093,2022-01-15,Gold,55+,Selangor
+M0094,2022-10-28,Silver,55+,Sabah
+M0095,2022-03-06,Silver,25-34,Penang
+M0096,2022-12-11,Gold,55+,Kuala Lumpur
+M0097,2022-11-23,Silver,35-44,Penang
+M0098,2022-01-09,Silver,25-34,Johor
+M0099,2022-12-10,Platinum,55+,Sabah
+M0100,2022-05-09,Silver,25-34,Sabah
+M0101,2022-05-16,Silver,45-54,Sabah
+M0102,2022-03-04,Silver,18-24,Penang
+M0103,2022-05-19,Silver,25-34,Johor
+M0104,2022-03-22,Silver,18-24,Kuala Lumpur
+M0105,2022-06-12,Silver,55+,Kuala Lumpur
+M0106,2022-10-16,Silver,18-24,Penang
+M0107,2022-09-18,Gold,25-34,Sabah
+M0108,2022-08-19,Gold,45-54,Selangor
+M0109,2022-02-10,Silver,55+,Penang
+M0110,2022-01-28,Platinum,25-34,Penang
+M0111,2022-05-15,Silver,55+,Johor
+M0112,2022-07-20,Silver,35-44,Kuala Lumpur
+M0113,2022-11-24,Gold,18-24,Penang
+M0114,2022-09-25,Silver,35-44,Penang
+M0115,2022-02-02,Platinum,25-34,Sabah
+M0116,2022-02-17,Silver,45-54,Sabah
+M0117,2022-03-03,Platinum,55+,Selangor
+M0118,2022-08-04,Silver,18-24,Johor
+M0119,2022-10-20,Gold,55+,Selangor
+M0120,2022-04-09,Silver,25-34,Sabah
+M0121,2022-06-21,Platinum,55+,Kuala Lumpur
+M0122,2022-12-26,Silver,18-24,Sabah
+M0123,2022-08-02,Silver,25-34,Johor
+M0124,2022-02-04,Platinum,55+,Sabah
+M0125,2022-08-15,Silver,45-54,Johor
+M0126,2022-04-11,Gold,25-34,Johor
+M0127,2022-05-11,Gold,25-34,Johor
+M0128,2022-09-14,Silver,45-54,Johor
+M0129,2022-01-05,Gold,35-44,Johor
+M0130,2022-08-06,Silver,18-24,Kuala Lumpur
+M0131,2022-09-12,Platinum,35-44,Selangor
+M0132,2022-12-25,Silver,55+,Penang
+M0133,2022-10-10,Silver,45-54,Selangor
+M0134,2022-07-26,Platinum,35-44,Johor
+M0135,2022-01-15,Gold,25-34,Kuala Lumpur
+M0136,2022-12-12,Silver,55+,Sabah
+M0137,2022-02-11,Gold,55+,Kuala Lumpur
+M0138,2022-06-28,Silver,35-44,Johor
+M0139,2022-03-04,Silver,35-44,Kuala Lumpur
+M0140,2022-12-18,Silver,45-54,Kuala Lumpur
+M0141,2022-08-19,Silver,18-24,Johor
+M0142,2022-08-29,Silver,35-44,Kuala Lumpur
+M0143,2022-02-21,Silver,35-44,Penang
+M0144,2022-04-06,Platinum,25-34,Penang
+M0145,2022-08-10,Platinum,55+,Kuala Lumpur
+M0146,2022-08-19,Gold,18-24,Sabah
+M0147,2022-08-25,Silver,25-34,Johor
+M0148,2022-05-23,Silver,45-54,Penang
+M0149,2022-06-20,Gold,45-54,Sabah
+M0150,2022-01-29,Gold,35-44,Kuala Lumpur
+M0151,2022-02-05,Silver,35-44,Sabah
+M0152,2022-01-13,Platinum,45-54,Selangor
+M0153,2022-06-09,Gold,35-44,Penang
+M0154,2022-11-23,Platinum,18-24,Kuala Lumpur
+M0155,2022-07-06,Gold,35-44,Johor
+M0156,2022-08-31,Gold,55+,Kuala Lumpur
+M0157,2022-03-27,Silver,35-44,Johor
+M0158,2022-10-11,Platinum,25-34,Kuala Lumpur
+M0159,2022-03-07,Gold,18-24,Sabah
+M0160,2022-06-19,Silver,25-34,Sabah
+M0161,2022-02-14,Silver,25-34,Sabah
+M0162,2022-03-03,Silver,55+,Selangor
+M0163,2022-05-14,Gold,18-24,Johor
+M0164,2022-10-11,Platinum,18-24,Sabah
+M0165,2022-01-28,Silver,18-24,Selangor
+M0166,2022-04-18,Silver,18-24,Johor
+M0167,2022-02-13,Silver,18-24,Kuala Lumpur
+M0168,2022-12-06,Platinum,55+,Selangor
+M0169,2022-10-13,Gold,35-44,Penang
+M0170,2022-11-27,Gold,25-34,Selangor
+M0171,2022-05-08,Silver,18-24,Selangor
+M0172,2022-12-14,Silver,35-44,Johor
+M0173,2022-08-19,Silver,35-44,Kuala Lumpur
+M0174,2022-07-09,Silver,25-34,Penang
+M0175,2022-08-13,Gold,55+,Sabah
+M0176,2022-10-10,Gold,45-54,Sabah
+M0177,2022-05-01,Platinum,45-54,Selangor
+M0178,2022-04-26,Platinum,35-44,Johor
+M0179,2022-08-21,Silver,25-34,Johor
+M0180,2022-09-16,Gold,45-54,Sabah
+M0181,2022-12-25,Platinum,35-44,Penang
+M0182,2022-07-17,Gold,55+,Kuala Lumpur
+M0183,2022-05-17,Silver,45-54,Penang
+M0184,2022-11-14,Silver,35-44,Kuala Lumpur
+M0185,2022-06-14,Silver,35-44,Sabah
+M0186,2022-08-13,Platinum,18-24,Kuala Lumpur
+M0187,2022-11-03,Gold,55+,Johor
+M0188,2022-08-22,Silver,18-24,Selangor
+M0189,2022-06-21,Gold,25-34,Selangor
+M0190,2022-06-01,Gold,18-24,Sabah
+M0191,2022-11-11,Silver,18-24,Johor
+M0192,2022-06-09,Silver,45-54,Penang
+M0193,2022-04-06,Gold,35-44,Johor
+M0194,2022-08-21,Silver,55+,Selangor
+M0195,2022-06-29,Gold,18-24,Selangor
+M0196,2022-04-23,Silver,55+,Johor
+M0197,2022-11-14,Gold,18-24,Johor
+M0198,2022-02-21,Silver,25-34,Selangor
+M0199,2022-09-25,Silver,18-24,Penang
+M0200,2022-10-22,Gold,45-54,Sabah
+M0201,2022-04-23,Silver,35-44,Sabah
+M0202,2022-04-11,Silver,25-34,Johor
+M0203,2022-04-23,Silver,18-24,Sabah
+M0204,2022-03-22,Gold,55+,Selangor
+M0205,2022-07-06,Gold,25-34,Selangor
+M0206,2022-04-23,Gold,25-34,Johor
+M0207,2022-01-02,Silver,18-24,Johor
+M0208,2022-05-10,Silver,25-34,Johor
+M0209,2022-08-08,Silver,55+,Penang
+M0210,2022-02-23,Silver,25-34,Sabah
+M0211,2022-12-09,Silver,55+,Johor
+M0212,2022-08-12,Silver,18-24,Kuala Lumpur
+M0213,2022-08-13,Silver,35-44,Kuala Lumpur
+M0214,2022-05-06,Platinum,25-34,Selangor
+M0215,2022-05-10,Silver,35-44,Sabah
+M0216,2022-02-22,Silver,55+,Johor
+M0217,2022-06-21,Gold,25-34,Kuala Lumpur
+M0218,2022-08-06,Silver,45-54,Sabah
+M0219,2022-06-09,Gold,35-44,Selangor
+M0220,2022-07-17,Gold,25-34,Penang
+M0221,2022-09-04,Platinum,35-44,Sabah
+M0222,2022-11-20,Silver,25-34,Sabah
+M0223,2022-07-22,Platinum,18-24,Penang
+M0224,2022-07-03,Silver,35-44,Sabah
+M0225,2022-05-03,Silver,45-54,Selangor
+M0226,2022-09-12,Silver,45-54,Selangor
+M0227,2022-10-21,Platinum,55+,Penang
+M0228,2022-10-07,Silver,25-34,Johor
+M0229,2022-11-21,Silver,35-44,Kuala Lumpur
+M0230,2022-04-08,Gold,55+,Johor
+M0231,2022-07-17,Silver,35-44,Sabah
+M0232,2022-08-28,Silver,25-34,Kuala Lumpur
+M0233,2022-05-24,Silver,45-54,Penang
+M0234,2022-04-07,Silver,18-24,Penang
+M0235,2022-07-20,Silver,45-54,Kuala Lumpur
+M0236,2022-05-04,Silver,55+,Selangor
+M0237,2022-07-06,Gold,18-24,Kuala Lumpur
+M0238,2022-11-22,Silver,55+,Sabah
+M0239,2022-12-15,Silver,25-34,Selangor
+M0240,2022-09-16,Gold,18-24,Penang
+M0241,2022-05-28,Silver,55+,Kuala Lumpur
+M0242,2022-09-09,Gold,25-34,Johor
+M0243,2022-12-12,Silver,45-54,Johor
+M0244,2022-05-27,Silver,25-34,Sabah
+M0245,2022-05-28,Silver,35-44,Johor
+M0246,2022-12-18,Silver,25-34,Kuala Lumpur
+M0247,2022-07-18,Silver,25-34,Kuala Lumpur
+M0248,2022-11-04,Silver,35-44,Johor
+M0249,2022-05-08,Silver,55+,Kuala Lumpur
+M0250,2022-02-08,Silver,55+,Sabah
+M0251,2022-12-04,Silver,25-34,Selangor
+M0252,2022-12-26,Silver,35-44,Sabah
+M0253,2022-05-09,Silver,35-44,Sabah
+M0254,2022-09-24,Silver,45-54,Kuala Lumpur
+M0255,2022-05-31,Gold,55+,Selangor
+M0256,2022-10-25,Silver,18-24,Kuala Lumpur
+M0257,2022-04-09,Gold,55+,Penang
+M0258,2022-09-20,Gold,55+,Kuala Lumpur
+M0259,2022-09-09,Silver,45-54,Kuala Lumpur
+M0260,2022-05-24,Gold,18-24,Kuala Lumpur
+M0261,2022-12-12,Platinum,45-54,Selangor
+M0262,2022-04-22,Silver,18-24,Kuala Lumpur
+M0263,2022-03-01,Silver,25-34,Selangor
+M0264,2022-01-02,Gold,18-24,Johor
+M0265,2022-10-31,Gold,45-54,Penang
+M0266,2022-09-11,Silver,55+,Selangor
+M0267,2022-05-20,Silver,18-24,Johor
+M0268,2022-02-06,Silver,18-24,Selangor
+M0269,2022-06-09,Silver,35-44,Selangor
+M0270,2022-01-09,Gold,55+,Penang
+M0271,2022-08-21,Silver,25-34,Sabah
+M0272,2022-04-09,Silver,45-54,Sabah
+M0273,2022-05-27,Gold,25-34,Selangor
+M0274,2022-10-31,Silver,55+,Kuala Lumpur
+M0275,2022-07-27,Silver,18-24,Johor
+M0276,2022-05-11,Gold,18-24,Kuala Lumpur
+M0277,2022-06-01,Gold,55+,Kuala Lumpur
+M0278,2022-02-23,Silver,18-24,Selangor
+M0279,2022-04-30,Silver,18-24,Selangor
+M0280,2022-06-10,Silver,18-24,Selangor
+M0281,2022-04-26,Silver,45-54,Selangor
+M0282,2022-03-16,Silver,45-54,Sabah
+M0283,2022-04-23,Silver,35-44,Selangor
+M0284,2022-04-14,Silver,25-34,Sabah
+M0285,2022-12-06,Silver,55+,Sabah
+M0286,2022-09-11,Silver,55+,Selangor
+M0287,2022-08-15,Silver,55+,Penang
+M0288,2022-04-22,Silver,35-44,Johor
+M0289,2022-04-09,Silver,45-54,Kuala Lumpur
+M0290,2022-06-02,Silver,35-44,Sabah
+M0291,2022-12-15,Gold,55+,Johor
+M0292,2022-12-04,Silver,25-34,Penang
+M0293,2022-07-13,Gold,18-24,Kuala Lumpur
+M0294,2022-11-06,Gold,45-54,Kuala Lumpur
+M0295,2022-06-12,Silver,45-54,Sabah
+M0296,2022-07-27,Silver,35-44,Selangor
+M0297,2022-06-18,Silver,45-54,Penang
+M0298,2022-06-10,Silver,55+,Sabah
+M0299,2022-03-09,Gold,55+,Penang
+M0300,2022-10-16,Silver,35-44,Selangor
+M0301,2022-10-04,Silver,55+,Selangor
+M0302,2022-10-31,Silver,25-34,Sabah
+M0303,2022-05-15,Silver,35-44,Selangor
+M0304,2022-07-14,Gold,25-34,Johor
+M0305,2022-05-08,Silver,18-24,Kuala Lumpur
+M0306,2022-02-02,Silver,25-34,Sabah
+M0307,2022-06-25,Platinum,18-24,Penang
+M0308,2022-01-22,Gold,18-24,Johor
+M0309,2022-08-26,Silver,25-34,Sabah
+M0310,2022-06-07,Silver,35-44,Selangor
+M0311,2022-02-07,Silver,55+,Selangor
+M0312,2022-08-18,Silver,55+,Selangor
+M0313,2022-12-31,Silver,18-24,Selangor
+M0314,2022-02-20,Silver,18-24,Penang
+M0315,2022-09-21,Silver,35-44,Johor
+M0316,2022-10-10,Silver,45-54,Kuala Lumpur
+M0317,2022-01-27,Gold,25-34,Penang
+M0318,2022-08-14,Silver,18-24,Penang
+M0319,2022-10-04,Silver,55+,Kuala Lumpur
+M0320,2022-10-13,Silver,35-44,Kuala Lumpur
+M0321,2022-04-07,Platinum,25-34,Selangor
+M0322,2022-10-11,Silver,35-44,Penang
+M0323,2022-11-13,Silver,25-34,Sabah
+M0324,2022-10-31,Platinum,25-34,Kuala Lumpur
+M0325,2022-05-27,Gold,18-24,Kuala Lumpur
+M0326,2022-01-04,Gold,35-44,Johor
+M0327,2022-02-04,Silver,35-44,Sabah
+M0328,2022-07-11,Silver,55+,Sabah
+M0329,2022-02-18,Gold,55+,Kuala Lumpur
+M0330,2022-01-17,Platinum,18-24,Selangor
+M0331,2022-06-21,Silver,18-24,Johor
+M0332,2022-08-08,Silver,45-54,Sabah
+M0333,2022-06-07,Silver,55+,Kuala Lumpur
+M0334,2022-02-15,Gold,25-34,Sabah
+M0335,2022-01-06,Silver,35-44,Johor
+M0336,2022-04-09,Silver,18-24,Johor
+M0337,2022-08-21,Silver,35-44,Penang
+M0338,2022-02-06,Silver,35-44,Kuala Lumpur
+M0339,2022-10-07,Silver,45-54,Johor
+M0340,2022-12-15,Silver,55+,Penang
+M0341,2022-10-29,Gold,18-24,Penang
+M0342,2022-06-30,Silver,35-44,Sabah
+M0343,2022-04-05,Silver,18-24,Sabah
+M0344,2022-04-09,Silver,25-34,Penang
+M0345,2022-07-07,Silver,45-54,Sabah
+M0346,2022-04-26,Silver,25-34,Johor
+M0347,2022-07-10,Silver,18-24,Selangor
+M0348,2022-09-10,Silver,18-24,Johor
+M0349,2022-06-10,Silver,55+,Penang
+M0350,2022-09-13,Silver,35-44,Penang
+M0351,2022-11-19,Platinum,35-44,Johor
+M0352,2022-05-08,Silver,25-34,Sabah
+M0353,2022-01-18,Gold,45-54,Sabah
+M0354,2022-10-08,Silver,35-44,Penang
+M0355,2022-08-11,Gold,55+,Kuala Lumpur
+M0356,2022-02-23,Gold,25-34,Sabah
+M0357,2022-02-27,Silver,25-34,Johor
+M0358,2022-11-19,Silver,55+,Sabah
+M0359,2022-12-26,Silver,45-54,Johor
+M0360,2022-06-23,Silver,55+,Penang
+M0361,2022-10-07,Platinum,45-54,Sabah
+M0362,2022-04-24,Gold,55+,Johor
+M0363,2022-10-15,Platinum,55+,Penang
+M0364,2022-12-08,Silver,18-24,Kuala Lumpur
+M0365,2022-05-31,Gold,25-34,Johor
+M0366,2022-05-07,Platinum,55+,Kuala Lumpur
+M0367,2022-06-04,Silver,55+,Kuala Lumpur
+M0368,2022-09-30,Silver,35-44,Selangor
+M0369,2022-04-14,Gold,25-34,Sabah
+M0370,2022-10-26,Silver,35-44,Johor
+M0371,2022-09-03,Gold,25-34,Kuala Lumpur
+M0372,2022-06-25,Silver,35-44,Selangor
+M0373,2022-02-08,Gold,55+,Penang
+M0374,2022-06-19,Silver,55+,Johor
+M0375,2022-09-04,Silver,18-24,Kuala Lumpur
+M0376,2022-01-26,Silver,35-44,Sabah
+M0377,2022-12-21,Gold,45-54,Selangor
+M0378,2022-11-02,Gold,18-24,Kuala Lumpur
+M0379,2022-01-13,Silver,35-44,Sabah
+M0380,2022-11-12,Silver,35-44,Kuala Lumpur
+M0381,2022-11-09,Gold,18-24,Johor
+M0382,2022-02-05,Silver,55+,Johor
+M0383,2022-06-22,Gold,35-44,Johor
+M0384,2022-01-20,Silver,55+,Selangor
+M0385,2022-11-17,Silver,18-24,Johor
+M0386,2022-09-21,Silver,55+,Sabah
+M0387,2022-05-22,Silver,25-34,Kuala Lumpur
+M0388,2022-05-23,Gold,45-54,Penang
+M0389,2022-04-02,Silver,35-44,Sabah
+M0390,2022-12-20,Silver,45-54,Sabah
+M0391,2022-11-18,Gold,55+,Johor
+M0392,2022-10-15,Silver,35-44,Selangor
+M0393,2022-08-03,Silver,55+,Kuala Lumpur
+M0394,2022-12-08,Platinum,25-34,Selangor
+M0395,2022-02-20,Gold,18-24,Kuala Lumpur
+M0396,2022-06-02,Silver,35-44,Kuala Lumpur
+M0397,2022-07-05,Platinum,25-34,Selangor
+M0398,2022-03-04,Gold,25-34,Sabah
+M0399,2022-07-09,Silver,35-44,Kuala Lumpur
+M0400,2022-05-05,Silver,55+,Selangor
+M0401,2022-05-30,Gold,25-34,Kuala Lumpur
+M0402,2022-11-10,Gold,45-54,Penang
+M0403,2022-02-27,Silver,25-34,Sabah
+M0404,2022-12-08,Gold,55+,Johor
+M0405,2022-11-01,Gold,55+,Kuala Lumpur
+M0406,2022-06-29,Silver,45-54,Penang
+M0407,2022-06-19,Silver,25-34,Johor
+M0408,2022-11-22,Silver,55+,Johor
+M0409,2022-09-28,Gold,35-44,Kuala Lumpur
+M0410,2022-02-23,Silver,18-24,Selangor
+M0411,2022-04-11,Silver,18-24,Kuala Lumpur
+M0412,2022-09-21,Gold,18-24,Penang
+M0413,2022-02-22,Gold,25-34,Johor
+M0414,2022-03-01,Silver,45-54,Kuala Lumpur
+M0415,2022-04-18,Gold,55+,Selangor
+M0416,2022-01-05,Silver,35-44,Kuala Lumpur
+M0417,2022-04-13,Gold,35-44,Sabah
+M0418,2022-07-15,Silver,25-34,Selangor
+M0419,2022-09-19,Silver,18-24,Penang
+M0420,2022-12-31,Gold,25-34,Johor
+M0421,2022-12-16,Silver,45-54,Kuala Lumpur
+M0422,2022-02-16,Silver,45-54,Selangor
+M0423,2022-12-21,Gold,55+,Sabah
+M0424,2022-11-07,Gold,55+,Selangor
+M0425,2022-11-04,Gold,45-54,Sabah
+M0426,2022-05-24,Gold,45-54,Penang
+M0427,2022-09-26,Silver,45-54,Johor
+M0428,2022-05-04,Silver,25-34,Penang
+M0429,2022-04-16,Silver,45-54,Kuala Lumpur
+M0430,2022-06-07,Silver,35-44,Selangor
+M0431,2022-05-27,Platinum,18-24,Sabah
+M0432,2022-05-25,Silver,45-54,Sabah
+M0433,2022-04-30,Silver,18-24,Selangor
+M0434,2022-11-15,Silver,25-34,Selangor
+M0435,2022-10-02,Platinum,18-24,Kuala Lumpur
+M0436,2022-04-02,Silver,25-34,Penang
+M0437,2022-02-27,Silver,35-44,Sabah
+M0438,2022-12-12,Silver,25-34,Kuala Lumpur
+M0439,2022-08-17,Gold,25-34,Penang
+M0440,2022-04-27,Silver,55+,Kuala Lumpur
+M0441,2022-11-14,Gold,45-54,Sabah
+M0442,2022-10-06,Platinum,45-54,Selangor
+M0443,2022-05-07,Silver,35-44,Selangor
+M0444,2022-05-09,Gold,35-44,Penang
+M0445,2022-02-27,Platinum,45-54,Johor
+M0446,2022-05-02,Gold,55+,Penang
+M0447,2022-01-01,Silver,45-54,Johor
+M0448,2022-08-27,Silver,55+,Kuala Lumpur
+M0449,2022-10-17,Gold,35-44,Kuala Lumpur
+M0450,2022-04-06,Silver,18-24,Sabah
+M0451,2022-05-06,Gold,35-44,Johor
+M0452,2022-04-28,Platinum,35-44,Sabah
+M0453,2022-02-17,Platinum,25-34,Selangor
+M0454,2022-03-30,Silver,25-34,Johor
+M0455,2022-08-25,Silver,25-34,Penang
+M0456,2022-09-29,Platinum,25-34,Selangor
+M0457,2022-07-08,Gold,55+,Selangor
+M0458,2022-07-11,Silver,45-54,Penang
+M0459,2022-03-10,Platinum,18-24,Selangor
+M0460,2022-10-05,Gold,35-44,Johor
+M0461,2022-12-15,Silver,55+,Sabah
+M0462,2022-09-04,Silver,18-24,Selangor
+M0463,2022-03-17,Silver,55+,Johor
+M0464,2022-06-03,Silver,55+,Kuala Lumpur
+M0465,2022-05-24,Silver,35-44,Johor
+M0466,2022-03-27,Gold,45-54,Sabah
+M0467,2022-07-04,Silver,25-34,Johor
+M0468,2022-10-12,Silver,45-54,Penang
+M0469,2022-08-08,Silver,35-44,Sabah
+M0470,2022-03-10,Silver,35-44,Kuala Lumpur
+M0471,2022-02-16,Platinum,35-44,Penang
+M0472,2022-04-04,Silver,18-24,Johor
+M0473,2022-08-26,Silver,45-54,Sabah
+M0474,2022-07-23,Gold,45-54,Kuala Lumpur
+M0475,2022-08-06,Silver,55+,Penang
+M0476,2022-12-07,Silver,55+,Kuala Lumpur
+M0477,2022-02-08,Silver,55+,Johor
+M0478,2022-04-10,Silver,35-44,Kuala Lumpur
+M0479,2022-10-16,Silver,45-54,Selangor
+M0480,2022-09-11,Silver,35-44,Penang
+M0481,2022-08-10,Silver,18-24,Kuala Lumpur
+M0482,2022-12-23,Platinum,55+,Johor
+M0483,2022-01-23,Silver,35-44,Johor
+M0484,2022-09-07,Silver,35-44,Kuala Lumpur
+M0485,2022-01-10,Gold,18-24,Johor
+M0486,2022-09-03,Silver,25-34,Sabah
+M0487,2022-11-21,Gold,45-54,Sabah
+M0488,2022-04-10,Silver,25-34,Sabah
+M0489,2022-10-17,Platinum,55+,Selangor
+M0490,2022-06-29,Silver,35-44,Kuala Lumpur
+M0491,2022-08-11,Silver,18-24,Selangor
+M0492,2022-09-07,Silver,18-24,Johor
+M0493,2022-05-27,Platinum,45-54,Selangor
+M0494,2022-04-06,Silver,25-34,Johor
+M0495,2022-09-14,Silver,45-54,Johor
+M0496,2022-11-21,Silver,35-44,Penang
+M0497,2022-01-04,Gold,45-54,Sabah
+M0498,2022-01-16,Silver,18-24,Johor
+M0499,2022-10-07,Gold,18-24,Penang
+M0500,2022-12-02,Silver,55+,Sabah

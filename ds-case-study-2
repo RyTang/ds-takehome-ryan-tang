@@ -1,0 +1,59 @@
+
+## 🟡 Case Study: **Data Scientist**
+
+### 📝 Objective:
+
+Evaluate your ability to model real-world business challenges, explain your thinking clearly, and apply data science techniques appropriately.
+
+---
+
+### 📂 Case Study: Predicting Churn for BonusLink Members
+
+Your goal is to identify members who are at risk of becoming inactive (i.e., not transacting for the next 3 months). Management wants to proactively engage these members with marketing campaigns.
+
+You are given the following mock datasets:
+
+* `transactions.csv` — member ID, merchant ID, spend amount, and timestamp
+* `members.csv` — member ID, signup date, tier, age group, and state
+* `engagement.csv` — logins, redemptions, and app usage metrics
+
+---
+
+### 🧠 Task:
+
+1. **Problem Framing**
+
+   * Define what “churn” means in this context
+   * Describe the prediction goal and evaluation approach
+
+2. **Feature Engineering**
+
+   * Propose and compute meaningful features that may influence churn
+   * Handle missing or inconsistent data where applicable
+
+3. **Modeling**
+
+   * Build a simple predictive model using Python (e.g., logistic regression, tree-based model)
+   * Evaluate model performance using appropriate metrics (ROC, precision-recall, etc.)
+
+4. **Explainability & Business Implications**
+
+   * Share key features influencing churn (e.g., SHAP, permutation importance)
+   * Recommend how the business can act on these insights
+
+---
+
+### 🚀 Submission Instructions:
+
+1. Create a **GitHub repository** with:
+
+   * Python code and notebooks
+   * A `README.md` explaining your logic, feature choices, and model results
+   * Any visualizations or data storytelling elements (charts, confusion matrix, etc.)
+   * Bonus: Use folders like `/data/`, `/notebooks/`, `/scripts/` for clarity
+
+2. Name the repo: `ds-takehome-[yourname]`
+
+3. Share the GitHub repo link with anusia@bonuslink.com.my
+
+---
